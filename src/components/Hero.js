@@ -1,4 +1,6 @@
 import React from "react";
+import {MdKeyboardArrowRight} from 'react-icons/md';
+
 import {
     Section,
     Content,
@@ -21,6 +23,7 @@ const Hero = () => {
                     </Description>
                     <Button href="https://bit.ly/webull-join">
                         <span>Prisijunk dabar</span>
+                        <MdKeyboardArrowRight/>
                     </Button>
                     
                 </Left>
